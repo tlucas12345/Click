@@ -17,7 +17,10 @@ function bot() {
     Game.ClickProduct(13);
     Game.ClickProduct(14);
     for (i = 0; i < Game.UpgradesById.length; i++) { 
-      Game.UpgradesById[i].buy();
+        if (Game.UpgradesById[i].getPrice() < Game.cookies)
+        {
+            Game.UpgradesById[i].buy();
+        }
     }
     Game.ConfirmPrompt();
 }
