@@ -23,6 +23,6 @@ function bot() {
     }
     Game.ConfirmPrompt();
 }
-setInterval(bot, 1);
+setInterval(bot, 0);
 Game.ClickTinyCookie();
 Game.bakeryNameSet("autoplay");
