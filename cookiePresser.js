@@ -51,4 +51,8 @@ document.onkeyup = function (e) {
     if (e.keyCode == 71) {
         Game.ClickProduct(14);
     }
+    if (e.keyCode == 190) {
+        Game.ClickTinyCookie();
+    }
+    
 };
