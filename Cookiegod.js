@@ -44,11 +44,11 @@ Game.Objects.Temple.buy();
 Game.Objects.Temple.totalCookies=1e+308;
 Game.Objects.Temple.baseCps=1e+100;
 
-Game.ObjectsById[8].amount=9998;
-Game.ObjectsById[8].buyFree=1;
-Game.ObjectsById[8].buy();
-Game.ObjectsById[8].totalCookies=1e+308;
-Game.ObjectsById[8].baseCps=1e+100;
+Game.ObjectsById[7].amount=9998;
+Game.ObjectsById[7].buyFree=1;
+Game.ObjectsById[7].buy();
+Game.ObjectsById[7].totalCookies=1e+308;
+Game.ObjectsById[7].baseCps=1e+100;
 
 Game.ObjectsById[8].amount=9998;
 Game.ObjectsById[8].buyFree=1;
