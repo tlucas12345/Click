@@ -50,6 +50,12 @@ Game.ObjectsById[8].buy();
 Game.ObjectsById[8].totalCookies=1e+308;
 Game.ObjectsById[8].baseCps=1e+100;
 
+Game.ObjectsById[8].amount=9998;
+Game.ObjectsById[8].buyFree=1;
+Game.ObjectsById[8].buy();
+Game.ObjectsById[8].totalCookies=1e+308;
+Game.ObjectsById[8].baseCps=1e+100;
+
 Game.ObjectsById[9].amount=9998;
 Game.ObjectsById[9].buyFree=1;
 Game.ObjectsById[9].buy();
