@@ -1,6 +1,6 @@
 document.onkeyup = function (e) {
     e = e || window.event;
-    if (e.keyCode == 68) {
+    if (e.keyCode == 32) {
         Game.ClickCookie();
     } 
 };
