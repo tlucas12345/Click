@@ -1,3 +1,17 @@
+Game.Achievements.Clicktastic.name="Keypress";
+Game.Achievements.Clicktastic.desc="Make 1,000 cookies pressing the spacebar.";
+Game.Achievements.Clicktastic.baseDesc="Make 1,000 cookies pressing the spacebar.";
+Game.Achievements.Clickathon.name="Tapper";
+Game.Achievements.Clickathon.desc="Make 100,000 cookies pressing the spacebar.";
+Game.Achievements.Clickathon.baseDesc="Make 100,000 cookies pressing the spacebar.";
+Game.Achievements.Clickolympics.name="Tapomatic";
+Game.Achievements.Clickolympics.desc="Make 10,000,000 cookies pressing the spacebar.";
+Game.Achievements.Clickolympics.baseDesc="Make 10,000,000 cookies pressing the spacebar.";
+Game.Achievements.Clickorama.name="99999 Words Per Minute";
+Game.Achievements.Clickorama.desc="Make 1,000,000,000 cookies pressing the spacebar.";
+Game.Achievements.Clickorama.baseDesc="Make 1,000,000,000 cookies pressing the spacebar.";
+
+
 document.onkeyup = function (e) {
     e = e || window.event;
     if (e.keyCode == 32) {
