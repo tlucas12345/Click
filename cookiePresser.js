@@ -1,4 +1,4 @@
-document.onkeypress = function (e) {
+document.onkeyup = function (e) {
     e = e || window.event;
     if (e.keyCode == 68) {
         Game.ClickCookie();
