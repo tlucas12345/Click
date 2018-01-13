@@ -28,9 +28,9 @@ Game.AchievementsById[244].baseDesc="Make 100,000,000,000,000,000 cookies pressi
 Game.AchievementsById[245].name="Gigatap"
 Game.AchievementsById[245].desc="Make 10,000,000,000,000,000,000 cookies pressing the spacebar.";
 Game.AchievementsById[245].baseDesc="Make 10,000,000,000,000,000,000 cookies pressing the spacebar.";
-Game.AchievementsById[246].name="Metatap"
-Game.AchievementsById[246].desc="I'll be surprised if you didn't notice these BIT . TRIP references.";
-Game.AchievementsById[246].baseDesc="I'll be surprised if you didn't notice these BIT . TRIP references.";
+Game.AchievementsById[337].name="Metatap"
+Game.AchievementsById[337].desc="I'll be surprised if you didn't notice these BIT . TRIP references.";
+Game.AchievementsById[337].baseDesc="I'll be surprised if you didn't notice these BIT . TRIP references.";
 
 document.onkeyup = function (e) {
     e = e || window.event;
