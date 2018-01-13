@@ -1,6 +1,5 @@
 function bot() {
     Game.ClickCookie();
-    Game.ClickTinyCookie();
     Game.ClickProduct(0);
     Game.ClickProduct(1);
     Game.ClickProduct(2);
@@ -25,3 +24,5 @@ function bot() {
     Game.ConfirmPrompt();
 }
 setInterval(bot, 30);
+Game.ClickTinyCookie();
+Game.bakeryNameSet("autoplay");
