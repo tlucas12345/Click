@@ -17,7 +17,7 @@ function bot() {
     Game.ClickProduct(13);
     Game.ClickProduct(14);
     for (i = 0; i < Game.UpgradesById.length; i++) { 
-        if (Game.UpgradesById[i].getPrice() < Game.cookies)
+        if (Game.UpgradesById[i].getPrice() < Game.cookies && Game.UpgradesById[i].unlocked == true)
         {
             Game.UpgradesById[i].buy();
         }
