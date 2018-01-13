@@ -19,5 +19,6 @@ function bot() {
     for (i = 0; i < Game.UpgradesById.length; i++) { 
       Game.UpgradesById[i].buy();
     }
+    Game.ConfirmPrompt();
 }
 setInterval(bot, 30);
