@@ -30,10 +30,7 @@ var glitch_y = ['y','Y','ÿ','Ÿ','¥'];
 var glitch_z = ['z','Z','2','Ž','ž','ż','Ż','ź','Ź','ⓩ'];
 var glitch_space = [' ','_'];
 function glitch() {
-  if (rand(0,2)==1)
-  {
-    Game.bakeryNameSet(originalName.replace('a',glitch_a[rand(0,16)]).replace('b',glitch_b[rand(0,4)]));
-    //Game.bakeryNameSet(Game.bakeryName);
-  }
+  Game.bakeryName=originalName.replace('a',glitch_a[rand(0,16)]).replace('b',glitch_b[rand(0,4)]);
+    Game.bakeryNameRefresh();
 }
 setInterval(glitch, 30);
