@@ -30,20 +30,20 @@ var glitch_y = ['y','Y','ÿ','Ÿ','¥'];
 var glitch_z = ['z','Z','2','Ž','ž','ż','Ż','ź','Ź','ⓩ'];
 var glitch_space = [' ','_','-','.'];
 function glitch() {
-    Game.bakeryName=originalName.replace('a',glitch_a[rand(0,16)]).replace('b',glitch_b[rand(0,4)])
-                                .replace('c',glitch_c[rand(0,11)]).replace('d',glitch_d[rand(0,1)])
-                                .replace('e',glitch_e[rand(0,17)]).replace('f',glitch_f[rand(0,1)])
-                                .replace('g',glitch_g[rand(0,1)]).replace('h',glitch_h[rand(0,1)])
-                                .replace('i',glitch_i[rand(0,4)]).replace('j',glitch_j[rand(0,1)])
-                                .replace('k',glitch_k[rand(0,1)]).replace('l',glitch_l[rand(0,3)])
-                                .replace('m',glitch_m[rand(0,2)]).replace('n',glitch_n[rand(0,6)])
-                                .replace('o',glitch_o[rand(0,16)]).replace('p',glitch_p[rand(0,4)])
-                                .replace('q',glitch_q[rand(0,1)]).replace('r',glitch_r[rand(0,2)])
-                                .replace('s',glitch_s[rand(0,7)]).replace('t',glitch_t[rand(0,4)])
-                                .replace('u',glitch_u[rand(0,11)]).replace('v',glitch_v[rand(0,1)])
-                                .replace('w',glitch_w[rand(0,2)]).replace('x',glitch_x[rand(0,1)])
-                                .replace('y',glitch_y[rand(0,4)]).replace('z',glitch_z[rand(0,8)])
-                                .replace(' ',glitch_space[rand(0,2)])
+    Game.bakeryName=originalName.replace('a'.toUpperCase(),glitch_a[rand(0,16)]).replace('b'.toUpperCase(),glitch_b[rand(0,4)])
+                                .replace('c'.toUpperCase(),glitch_c[rand(0,11)]).replace('d'.toUpperCase(),glitch_d[rand(0,1)])
+                                .replace('e'.toUpperCase(),glitch_e[rand(0,17)]).replace('f'.toUpperCase(),glitch_f[rand(0,1)])
+                                .replace('g'.toUpperCase(),glitch_g[rand(0,1)]).replace('h'.toUpperCase(),glitch_h[rand(0,1)])
+                                .replace('i'.toUpperCase(),glitch_i[rand(0,4)]).replace('j'.toUpperCase(),glitch_j[rand(0,1)])
+                                .replace('k'.toUpperCase(),glitch_k[rand(0,1)]).replace('l'.toUpperCase(),glitch_l[rand(0,3)])
+                                .replace('m'.toUpperCase(),glitch_m[rand(0,2)]).replace('n'.toUpperCase(),glitch_n[rand(0,6)])
+                                .replace('o'.toUpperCase(),glitch_o[rand(0,16)]).replace('p'.toUpperCase(),glitch_p[rand(0,4)])
+                                .replace('q'.toUpperCase(),glitch_q[rand(0,1)]).replace('r'.toUpperCase(),glitch_r[rand(0,2)])
+                                .replace('s'.toUpperCase(),glitch_s[rand(0,7)]).replace('t'.toUpperCase(),glitch_t[rand(0,4)])
+                                .replace('u'.toUpperCase(),glitch_u[rand(0,11)]).replace('v'.toUpperCase(),glitch_v[rand(0,1)])
+                                .replace('w'.toUpperCase(),glitch_w[rand(0,2)]).replace('x'.toUpperCase(),glitch_x[rand(0,1)])
+                                .replace('y'.toUpperCase(),glitch_y[rand(0,4)]).replace('z'.toUpperCase(),glitch_z[rand(0,8)])
+                                .replace(' '.toUpperCase(),glitch_space[rand(0,2)])
     Game.bakeryNameRefresh();
 }
 setInterval(glitch, 30);
