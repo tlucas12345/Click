@@ -32,7 +32,8 @@ var glitch_space = [' ','_'];
 function glitch() {
   if (rand(0,2)==1)
   {
-    Game.bakeryNameSet(originalName.replace('a',glitch_a[rand(0,16)]).replace('b',glitch_b[rand(0,4)]));
+    Game.bakeryNameSet(originalName.replace('a',glitch_a[rand(0,16)]));
+    Game.bakeryNameSet(originalName.replace('b',glitch_b[rand(0,4)]));
   }
 }
-setInterval(glitch, 16);
+setInterval(glitch, 30);
