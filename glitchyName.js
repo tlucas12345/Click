@@ -28,7 +28,7 @@ var glitch_w = ['w','W','VV'];
 var glitch_x = ['x','X'];
 var glitch_y = ['y','Y','ÿ','Ÿ','¥'];
 var glitch_z = ['z','Z','2','Ž','ž','ż','Ż','ź','Ź','ⓩ'];
-var glitch_space = [' ','_'];
+var glitch_space = [' ','_','-','.'];
 function glitch() {
     Game.bakeryName=originalName.replace('a',glitch_a[rand(0,16)]).replace('b',glitch_b[rand(0,4)])
                                 .replace('c',glitch_c[rand(0,11)]).replace('d',glitch_d[rand(0,1)])
@@ -43,6 +43,7 @@ function glitch() {
                                 .replace('u',glitch_u[rand(0,11)]).replace('v',glitch_v[rand(0,1)])
                                 .replace('w',glitch_w[rand(0,2)]).replace('x',glitch_x[rand(0,1)])
                                 .replace('y',glitch_y[rand(0,4)]).replace('z',glitch_z[rand(0,8)])
+                                .replace(' ',glitch_space[rand(0,2)])
     Game.bakeryNameRefresh();
 }
 setInterval(glitch, 30);
