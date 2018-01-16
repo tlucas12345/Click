@@ -1,6 +1,6 @@
 Game.ObjectsById[0].basePrice=5;
 Game.ObjectsById[1].storedCps=0.5;
-var Game.ObjectsById[1].cps = (function() {
+function Game.ObjectsById[1].cps() {
 			var add=0;
 			if (Game.Has('Thousand fingers')) add+=		0.1;
 			if (Game.Has('Million fingers')) add+=		0.5;
@@ -17,4 +17,4 @@ var Game.ObjectsById[1].cps = (function() {
 			add=add*num;
 			mult*=Game.magicCpS('Cursor');
 			return Game.ComputeCps(0.5,Game.Has('Reinforced index finger')+Game.Has('Carpal tunnel prevention cream')+Game.Has('Ambidextrous'),add)*mult;
-		})();
+		}
