@@ -1,6 +1,7 @@
 Game.ObjectsById[0].basePrice=5;
-Game.ObjectsById[1].storedCps=0.5;
-function Game.ObjectsById[1].cps() {
+Game.ObjectsById[0].storedCps=0.5;
+var Game.ObjectsById[0].cps = (function() {})();
+function Game.ObjectsById[0].cps() {
 			var add=0;
 			if (Game.Has('Thousand fingers')) add+=		0.1;
 			if (Game.Has('Million fingers')) add+=		0.5;
